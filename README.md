@@ -17,7 +17,7 @@ Recommending books based on reviews out of five stars scraped from [Good Reads' 
 * Below are distributions of review counts by user before and after filtering
                            |  
 :-------------------------:|:-------------------------:
-![image-1](Images/review_dist_before_filter.PNG)  |  ![image-2](Images/review_dist_before_filter.png)
+![image-1](Images/review_dist_before_filter.png)  |  ![image-2](Images/review_dist_before_filter.png)
 
 ## Model Building
 * Began by using a baseline SVD model without passing in any hyperparameters. RMSE was 0.889 stars

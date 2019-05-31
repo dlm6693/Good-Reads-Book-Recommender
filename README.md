@@ -18,7 +18,7 @@ Recommending books based on reviews out of five stars scraped from [Good Reads' 
 ## Model Building
 * Began by using a baseline SVD model without passing in any hyperparameters. RMSE was 0.889 stars
 * Using randomized search and manual visualizations of hyperparameters, we were able to decrease the RMSE to 0.877 and MAE to 0.682. Below is an example of one of these visualizations, this one being the number of factors vs. RMSE
-![image-1](rmse_by_n_factors.png)
+![image-1](rmse_by_n_factors.PNG)
 * Various K Nearest Neighbors algorithms built into Surpise were also tested, but all performed significantly worse than SVD
 
 ## Creating the Recommender

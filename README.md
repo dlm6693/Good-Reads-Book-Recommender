@@ -15,9 +15,7 @@ Recommending books based on reviews out of five stars scraped from [Good Reads' 
 * There were duplicate books that were scraped and final dataset had reviewed for 395 different books
 * Data was filtered to only included users that had reviewed at least 5 books. Fortunately there were 3,772 people that met this criteria, even though they only accounted for 6.04% of total accounts with total reviews (rows) totalling 35,913
 * Below are distributions of review counts by user before and after filtering
-                           |  
-:-------------------------:|:-------------------------:
-![image-1](Images/review_dist_before_filter.png)  |  ![image-2](Images/review_dist_before_filter.png)
+![image-1](Images/review_dist_before_filter.png) ![image-2](Images/review_dist_before_filter.png)
 
 ## Model Building
 * Began by using a baseline SVD model without passing in any hyperparameters. RMSE was 0.889 stars

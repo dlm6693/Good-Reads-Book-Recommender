@@ -1,4 +1,4 @@
-# DS-Mod-4-Project
+# Good Reads Book Recommender
 Recommending books based on reviews out of five stars scraped from [Good Reads' Best Books of 2018](https://www.goodreads.com/choiceawards/best-books-2018).
 
 ## Overall Findings
